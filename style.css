@@ -1,0 +1,54 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: beige;
+}
+
+* {
+	font-family: Comic Sans MS;
+}
+
+/* applying all h1 elements with fixed size and aligment */
+.intro h1 {
+	font-size: 5vw;
+	font-size: 5vh;
+	text-align: center;
+}
+
+.intro h1 > h1 {
+	font-size: 5vh;
+}
+
+/* applying flex format in both divs */
+.first, .second {
+	display: flex;
+	justify-content: space-around;
+}
+ 
+/* makes all h3 elements in div have a background color and padding */
+div > h3 {
+	background-color: orangered;
+	padding: 2vw;
+}
+
+/* makes text white when you hover on class: first */
+.intro + .first:hover { 
+	color: white;
+}
+
+.first h4:hover, h5:hover{
+	background-color: saddlebrown;
+	padding: 2vmin;
+	padding: 4vmax;
+	color: whitesmoke;
+}
+
+
+
+
+
+
+
